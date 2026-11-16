@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "processor_revision": "il2cpp-prebuild-v6",
+  "il2cpp_so_sha256": "08dac05d67293c0b1fd8d0323c500d4d0c37f08877761c862572f92a869bf658",
+  "global_metadata_sha256": "1c40498d068bd15f8e9ba6a79d6faaa7080d832c503b7cebfb4440d3e28977cc",
+  "unity_version": "6000.0.77f1",
+  "unity_template_version": "20",
+  "ndk_version": "27.2.12479018",
+  "abi": [
+    "arm64-v8a"
+  ],
+  "target_sdk": 35,
+  "native_inventory": [
+    {
+      "name": "libPicoAmbisonicDecoder.so",
+      "sha256": "3caf065722f5fba6fe1e3d760db4c1b2f8a1e2f1ab40428585ef2e637c4921f7"
+    },
+    {
+      "name": "libPicoAudioRouter.so",
+      "sha256": "42d9baa4859d73d6ce48f206abbc039d563137a8174c0c15042d007317262e2b"
+    },
+    {
+      "name": "libPicoSpatializer.so",
+      "sha256": "f983b71a88ddd557c449acdcff32be8d77a6374b520ff78c7015acf6db0c8792"
+    },
+    {
+      "name": "lib_burst_generated.so",
+      "sha256": "7141b80129f81559d6c3a3acdc9620883f739c8d8c7139a6b8d6e7cf0092d09b"
+    },
+    {
+      "name": "libil2cpp.so",
+      "sha256": "08dac05d67293c0b1fd8d0323c500d4d0c37f08877761c862572f92a869bf658"
+    },
+    {
+      "name": "libmain.so",
+      "sha256": "952e8a0e98ae13dab4bfe18a7f33d61ad339c59eed6402fb223d5bbc4723bf43"
+    },
+    {
+      "name": "libpxrplatformloader.so",
+      "sha256": "2ce0bfb1f538a81d3528f2fdcebce65b0b6d42bfc865f31f6c15f10c1bc0e977"
+    },
+    {
+      "name": "libunity.so",
+      "sha256": "a4e0a2f19727e9c0cef7f4fe1d76e3eaa02192d7e88dcd41f21c17d5c5d4f9ca"
+    }
+  ],
+  "generated_at": "2026-11-16T19:53:12+08:00"
+}
