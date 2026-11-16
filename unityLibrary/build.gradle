@@ -3,11 +3,11 @@ apply from: '../shared/keepUnitySymbols.gradle'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation(name: 'tobservicelib-4.3.24', ext:'aar')
-    implementation(name: 'PxrPlatform', ext:'aar')
-    implementation(name: 'LoaderForUnitySDK_1_1_0', ext:'aar')
-    implementation(name: 'capturelib-release', ext:'aar')
+    implementation(name: 'capturelib-0.0.7', ext:'aar')
     implementation(name: 'CameraRenderingPlugin', ext:'aar')
+    implementation(name: 'PxrPlatform', ext:'aar')
+    implementation(name: 'tobservicelib-release', ext:'aar')
+    implementation(name: 'pxr_api-release', ext:'aar')
     implementation(name: 'tob_api-release', ext:'aar')
     implementation(name: 'BAuthLib-1.0.0', ext:'aar')
     implementation project(':unityLibrary:xrmanifest.androidlib')
@@ -148,9 +148,7 @@ android {
     }
     sourceSets {
         main {
-            jni.srcDirs = []
+            jni.srcDirs = ["src/main/Il2CppOutputProject"]
         }
     }
-}
-
-tasks.named('buildIl2Cpp').configure { enabled = false }
+}
