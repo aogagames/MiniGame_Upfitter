@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-feature android:glEsVersion="0x00030000" />
+  <uses-feature android:name="android.hardware.vulkan.version" android:required="false" />
   <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
   <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false" />
   <uses-feature android:name="android.hardware.touchscreen.multitouch.distinct" android:required="false" />
@@ -30,10 +31,10 @@
     <meta-data android:name="enable_cpt" android:value="0" />
     <meta-data android:name="Enable_AdaptiveHandModel" android:value="0" />
     <meta-data android:name="Hand_Tracking_HighFrequency" android:value="1" />
-    <meta-data android:name="rendering_mode" android:value="1" />
+    <meta-data android:name="rendering_mode" android:value="0" />
     <meta-data android:name="display_rate" android:value="0" />
     <meta-data android:name="color_Space" android:value="1" />
-    <meta-data android:name="MRCsupport" android:value="0" />
+    <meta-data android:name="MRCsupport" android:value="1" />
     <meta-data android:name="pvr.LateLatching" android:value="0" />
     <meta-data android:name="pvr.LateLatchingDebug" android:value="0" />
     <meta-data android:name="pvr.app.splash" android:value="0" />

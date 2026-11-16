@@ -7,7 +7,7 @@ dependencies {
 }
 
 android {
-    namespace "com.Aoga.Upfitter"
+    namespace "com.Aoga.ViolentMoving"
     ndkPath "G:/UnityEditer/6000.0.77/Editor/Data/PlaybackEngines/AndroidPlayer/NDK"
     ndkVersion "27.2.12479018"
     compileSdk 35
@@ -19,7 +19,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.Aoga.Upfitter"
+        applicationId "com.Aoga.ViolentMoving"
         versionName "0.1.0"
         minSdk 29
         targetSdk 35
