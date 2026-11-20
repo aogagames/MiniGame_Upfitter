@@ -30,7 +30,7 @@
     <meta-data android:name="enable_cpt" android:value="0" />
     <meta-data android:name="Enable_AdaptiveHandModel" android:value="0" />
     <meta-data android:name="Hand_Tracking_HighFrequency" android:value="1" />
-    <meta-data android:name="rendering_mode" android:value="1" />
+    <meta-data android:name="rendering_mode" android:value="0" />
     <meta-data android:name="display_rate" android:value="0" />
     <meta-data android:name="color_Space" android:value="1" />
     <meta-data android:name="MRCsupport" android:value="0" />
