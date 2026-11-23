@@ -148,8 +148,7 @@ android {
     }
     sourceSets {
         main {
-            jni.srcDirs = []
+            jni.srcDirs = ["src/main/Il2CppOutputProject"]
         }
     }
 }
-tasks.named('buildIl2Cpp').configure { enabled = false }
