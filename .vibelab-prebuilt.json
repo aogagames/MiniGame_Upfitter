@@ -25,7 +25,7 @@
     },
     {
       "name": "lib_burst_generated.so",
-      "sha256": "83ece3f39e4726000adfa660625b5d71a60c4c804ce73e1b0deedf4405ec25db"
+      "sha256": "7141b80129f81559d6c3a3acdc9620883f739c8d8c7139a6b8d6e7cf0092d09b"
     },
     {
       "name": "libil2cpp.so",
@@ -44,5 +44,5 @@
       "sha256": "4cbe2970356ed28189b24a1cd9ff86cfed7d4cf8539ec7f9e8b6c67a9b003183"
     }
   ],
-  "generated_at": "2026-11-23T18:51:25+08:00"
+  "generated_at": "2026-11-23T19:09:10+08:00"
 }
